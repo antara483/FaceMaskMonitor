@@ -1,0 +1,26 @@
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+env/
+
+# Dataset folder
+data/
+
+models/
+
+# Pre-trained models
+*.caffemodel
+*.prototxt
