@@ -3,6 +3,8 @@
 FaceMaskMonitor is a real-time face mask detection system that uses deep learning and computer vision to detect 
 whether a person is wearing a mask or not. The system also provides voice alerts for people not wearing masks and tracks mask usage statistics over time.
 
+[Watch demo video](https://drive.google.com/drive/folders/1uuoJCCwdRu-Poz_nPkPXDWJoAsMD2VA0)
+
 ## Technology Stack
 
 - Python 3.x
