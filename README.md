@@ -81,7 +81,55 @@ Real-time statistics like mean mask/no-mask confidence and number of faces detec
  3.Lightweight mobile deployment for edge devices
 
 
+## Installation
+### 1. Clone the repository
+```
+git clone https://github.com/antara483/FaceMaskMonitor.git
+cd FaceMaskMonitor
+```
 
+### 2. Install dependencies
+```
+pip install -r requirements.txt
+```
 
+### 3. Add models
+
+Place:
+
+- deploy.prototxt
+
+- res10_300x300_ssd_iter_140000.caffemodel
+
+into Project folder
+
+And 
+- mask_detector.pth
+
+into the models/ folder.
+
+## Usage
+- Run the application
+```
+python realtime_mask_detector.py
+```
+
+- The webcam window will open and start detecting faces.
+
+## Output
+
+The system shows:
+
+- Green box → Mask Detected
+
+- Red box → No Mask Detected
+
+Live stats:
+
+- Number of faces
+
+- Mean mask/no-mask confidence
+
+Initially Voice alerts will be triggered automatically for people not wearing masks.
 
 
